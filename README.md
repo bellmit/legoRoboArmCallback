@@ -1,8 +1,7 @@
 # legoRoboArmCallback
 Java code used to communicate a Raspberry Pi robo arm with Oracle IoT Cloud and Oracle Asset Monitoring.
 
-## INSTALL JAVA AND MAVEN
-## Raspbian has Java SE by default
+## INSTALL JAVA AND MAVEN (Raspbian has Java SE by default)
 
 sudo apt-get install maven
 
