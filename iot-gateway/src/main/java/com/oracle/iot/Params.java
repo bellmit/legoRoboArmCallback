@@ -1,0 +1,65 @@
+package com.oracle.iot;
+
+public class Params {
+
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_LIGHT = "urn:bot:1:wedo:lightmodel:sensor";
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_TEMP = "urn:bot:1:wedo:tempmodel:sensor";
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_TOUCH = "urn:bot:1:wedo:touchmodel:sensor";
+
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_LIGHT2 = "";
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_TEMP2 = "";
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_TOUCH2 = "";
+
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_LIGHT3 = "";
+    public static String ASSET_MONITORING_DEVICE_MODEL_URN_TOUCH3 = "";
+
+    public static String LIGHT_ATTRIBUTE = "light";
+    public static String TEMPERATURE_ATTRIBUTE = "temp";
+    public static String TOUCH_ATTRIBUTE = "touch";
+
+    public static String CONFIG_PATH_LIGHT = "/home/pi/iot/conf/wedoBot1Lighthw";
+    public static String CONFIG_PATH_TEMP = "/home/pi/iot/conf/wedoBot1Temphw";
+    public static String CONFIG_PATH_TOUCH = "/home/pi/iot/conf/wedoBot1Touchhw";
+
+    //public static String[] CONFIG_FILE_NAMES = {"wedoBot1Lighthw","wedoBot1Temphw","wedoBot1Touchhw"};
+    public static String[] CONFIG_FILE_NAMES = {"wedoBot1Temphw"};
+
+    public static String CONFIG_PATH_LIGHT2 = "";
+    public static String CONFIG_PATH_TEMP2 = "";
+    public static String CONFIG_PATH_TOUCH2 = "";
+
+    public static String CONFIG_PATH_LIGHT3 = "";
+    public static String CONFIG_PATH_TOUCH3 = "";
+
+
+
+    public static String CONFIG_PASSWORD = "Secret12";
+
+    public static String METHOD_NAME_LIGHT = "b1TriggeredActionLight";
+    public static String METHOD_NAME_TEMP = "b1TriggeredActionTemp";
+    public static String METHOD_NAME_TOUCH = "b1TriggeredActionTouch";
+
+    public static String METHOD_NAME_LIGHT2 = "";
+    public static String METHOD_NAME_TEMP2 = "";
+    public static String METHOD_NAME_TOUCH2 = "";
+
+    public static String METHOD_NAME_LIGHT3 = "";
+    public static String METHOD_NAME_TOUCH3 = "";
+
+    public static String CONFIG_IP_BOT = "localhost:8081";
+    public static String CONFIG_URL_BOT_STOP = "http://"+CONFIG_IP_BOT+"/move_stop/";
+    public static String CONFIG_URL_BOT_START = "http://"+CONFIG_IP_BOT+"/move_start/";
+    public static String CONFIG_URL_BOT_INIT = "http://"+CONFIG_IP_BOT+"/inicialice/";
+    public static String CONFIG_DEFAULT_USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:49.0) Gecko/20100101";
+
+    public static String CONFIG_URL_MULTI_TENANCY_BASE = "https://apex.digitalpracticespain.com/ords/pdb1/wedoindustry/iot/device/";
+    public static String CONFIG_URL_MULTI_TENANCY_BASE_PROXY = "http://proxy.digitalpracticespain.com:9997/ords/pdb1/wedoindustry/iot/device/";
+
+    //json values from api
+    public static String CONFIG_JSON_ATRTIBUTE = "provisiondata";
+
+    //modify
+    public static String CONFIG_PATH_DEMOZONE_FILE = "/demozone.dat";
+    public static String CONFIG_PATH_FILES = "/home/pi/iot/conf/";
+
+}

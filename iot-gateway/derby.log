@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Aug 22 18:03:25 UTC 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0165-62ce-3356-000001932f78 
+on database directory /home/pi/iot/iot-gateway/persistence_store with class loader java.net.URLClassLoader@1459686 
+Loaded from file:/home/pi/.m2/repository/com/oracle/iot/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-8u171-b11-1~deb9u1-b11
+user.dir=/home/pi/iot/iot-gateway
+os.name=Linux
+os.arch=arm
+os.version=4.14.59-ev3dev-2.2.2-rpi2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
